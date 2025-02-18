@@ -1,0 +1,57 @@
+# Ignore Visual Studio and Rider IDE files
+.vs/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.cache
+*.csproj.user
+
+# Ignore MonoGame build files
+bin/
+obj/
+*.log
+*.temp
+*.pidb
+*.ilk
+*.pdb
+*.idb
+
+# Ignore content pipeline cache
+PipelineCache/
+*.mgcb.cache
+
+# Ignore user-specific MonoGame settings
+*.mgcb.user
+*.monogame
+*.mglog
+
+# Ignore temporary files
+*.bak
+*.tmp
+*.~*
+
+# Ignore NuGet packages
+packages/
+*.nupkg
+project.lock.json
+.nuget/
+
+# Ignore DLLs and executables
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Ignore generated assets
+Content/obj/
+Content/bin/
+*.xnb
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore Windows system files
+Thumbs.db
+desktop.ini
